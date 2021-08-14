@@ -19,6 +19,7 @@ function crossTheBridge({start,end,timeElapsed}){
         solutions.push(totalTime)
         return totalTime;
     }
+    //si solo hay alguien en el puente que cruce y toma su tiempo
     if(start.length===1){
         console.log('tiempo transcurrido: '+start[0])
         solutions.push(start[0])
